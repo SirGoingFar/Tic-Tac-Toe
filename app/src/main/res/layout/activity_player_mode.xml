@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.eemf.sirgoingfar.tic_tac_toe.Activity.PlayerModeActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/img_bg"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome_header"
+
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:textSize="25sp"
+
+            android:layout_marginBottom="50dp"
+            android:fontFamily="casual"
+            />
+
+        <Button
+            android:id="@+id/single_player_btn"
+            android:text="@string/single_player"
+            style="@style/Button"
+            android:layout_marginBottom="30dp"
+            />
+
+        <Button
+            android:id="@+id/double_player_btn"
+            android:text="@string/double_player"
+            style="@style/Button"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

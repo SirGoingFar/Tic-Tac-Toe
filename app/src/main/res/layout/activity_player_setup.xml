@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.eemf.sirgoingfar.tic_tac_toe.Activity.PlayerSetupActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/img_bg"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/player_setup_hint"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginBottom="50dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:textStyle="italic"
+            android:textColor="@android:color/white"
+            android:background="@color/button_text_color"
+            android:padding="5dp"/>
+
+        <EditText
+            android:id="@+id/player_1_name"
+            style="@style/EditText"
+            android:hint="@string/player_1_name_hint" />
+
+        <EditText
+            android:id="@+id/player_2_name"
+            style="@style/EditText"
+            android:hint="@string/player_2_name_hint" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:background="@drawable/spinner_bg"
+            />
+
+        <Button
+            android:id="@+id/start_game_button"
+            android:layout_marginTop="120dp"
+            style="@style/Button_type2"
+            android:text="START GAME"/>
+    </LinearLayout>
+
+</RelativeLayout>

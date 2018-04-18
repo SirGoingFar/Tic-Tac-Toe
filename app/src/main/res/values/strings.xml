@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Tic-Tac-Toe</string>
+    <string name="designer_name">Designed by @SirGoingFar (+234813 772 3675)</string>
+    <string name="welcome_header">Welcome, select Game Mode</string>
+    <string name="single_player">Single Player</string>
+    <string name="double_player">Double Player</string>
+    <string name="player_1_name_hint">Player 1 Name</string>
+    <string name="player_2_name_hint">Player 2 Name</string>
+    <string name="player_setup_hint">(Enter as appropriate to enjoy a good user experience)</string>
+    <string name="game_board">GAME BOARD</string>
+    <string name="reset_board">RESET BOARD</string>
+    <string name="restart_game">RESTART GAME</string>
+    <string name="home_board">Home</string>
+    <string-array name="board_type">
+        <item>Select a board type</item>
+        <item>3 x 3 Board Type</item>
+        <item>4 x 4 Board Type</item>
+        <item>5 x 5 Board Type</item>
+    </string-array>
+</resources>
