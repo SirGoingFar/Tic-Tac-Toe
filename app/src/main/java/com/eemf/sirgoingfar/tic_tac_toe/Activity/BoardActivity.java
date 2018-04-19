@@ -1112,18 +1112,6 @@ public class BoardActivity extends AppCompatActivity {
 
     private TextView decisionBox(int scoreToFind) {
 
-        if (finalFor == finalAgainst) {
-            for (Map.Entry<TextView, Integer> entry : tenCount.entrySet()) {
-                mapKey = entry.getKey();
-                mapValue = entry.getValue();
-
-                if (mapValue >= finalFor) {
-                    choice = mapKey;
-                    return choice;
-                }
-            }
-        }
-
         //#1
         for (TextView possibleMove : possibleMoves) {
             for (ArrayList<Integer> a : entireMoveScores.get(possibleMove)) {
