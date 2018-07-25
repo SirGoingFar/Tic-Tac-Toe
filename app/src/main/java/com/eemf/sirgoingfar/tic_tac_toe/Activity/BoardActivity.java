@@ -10,7 +10,9 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
+
 import com.eemf.sirgoingfar.tic_tac_toe.R;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -1111,6 +1113,18 @@ public class BoardActivity extends AppCompatActivity {
     }
 
     private TextView decisionBox(int scoreToFind) {
+
+//        if (finalFor == finalAgainst) {
+//            for (Map.Entry<TextView, Integer> entry : tenCount.entrySet()) {
+//                mapKey = entry.getKey();
+//                mapValue = entry.getValue();
+//
+//                if (mapValue >= finalFor) {
+//                    choice = mapKey;
+//                    return choice;
+//                }
+//            }
+//        }
 
         //#1
         for (TextView possibleMove : possibleMoves) {
